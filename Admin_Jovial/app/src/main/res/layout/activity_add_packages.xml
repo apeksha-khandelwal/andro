@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rose3"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/text1"
+            android:layout_height="wrap_content"
+            android:text="Package Name:"
+            style="@style/heading"/>
+        <EditText
+            android:layout_width="200dp"
+            android:id="@+id/Pname"
+            android:layout_margin="20dp"
+            android:layout_gravity="right"
+            android:layout_height="wrap_content"
+            style="@style/text"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/text2"
+            android:layout_height="wrap_content"
+            android:text="Event Name:"
+            style="@style/heading"/>
+        <EditText
+            android:layout_width="200dp"
+            android:id="@+id/Ename"
+            android:layout_margin="20dp"
+            android:layout_gravity="right"
+            android:layout_height="wrap_content"
+            style="@style/text"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/text"
+            android:layout_height="wrap_content"
+            android:text="Base Charge:"
+            style="@style/heading"/>
+        <EditText
+            android:layout_width="100dp"
+            android:id="@+id/baseCharge"
+            android:layout_margin="20dp"
+            android:layout_gravity="center_horizontal"
+            android:maxLines="1"
+            android:layout_height="50dp"
+            style="@style/text"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/text3"
+            android:layout_height="wrap_content"
+            android:text="Catering Details:"
+            style="@style/heading"/>
+        <EditText
+            android:layout_width="220dp"
+            android:id="@+id/Cdetails"
+            android:layout_margin="20dp"
+            android:layout_gravity="right"
+            android:layout_height="150dp"
+            style="@style/text"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/text4"
+            android:layout_height="wrap_content"
+            android:text="Decoration Image:"
+            style="@style/heading"/>
+        <ImageView
+            android:layout_width="110dp"
+            android:id="@+id/EventView"
+            android:onClick="gallery"
+            android:layout_margin="20dp"
+            android:layout_gravity="right"
+            android:layout_height="100dp"
+            style="@style/text"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/text5"
+            android:layout_height="wrap_content"
+            android:text="Services Included:"
+            style="@style/heading"/>
+        <EditText
+            android:layout_width="250dp"
+            android:id="@+id/services"
+            android:layout_margin="20dp"
+            android:layout_gravity="right"
+            android:layout_height="150dp"
+            style="@style/text"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/text6"
+            android:layout_height="wrap_content"
+            android:text="Services option"
+            style="@style/heading"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/stage"
+                android:layout_marginTop="15dp"
+                android:text="Stage"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/sound"
+                android:layout_marginTop="15dp"
+                android:text="Sound"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:id="@+id/lighting"
+                android:text="Lighting"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/text7"
+            android:layout_height="wrap_content"
+            android:text="Total Charge:"
+            android:layout_marginTop="20dp"
+            style="@style/heading"/>
+        <EditText
+            android:layout_width="100dp"
+            android:id="@+id/total"
+            android:layout_margin="20dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="50dp"
+            style="@style/text"/>
+
+        <Button
+            android:id="@+id/button"
+            style="@style/text"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="50dp"
+            android:onClick="submit"
+            android:text="Submit" />
+    </LinearLayout>
+
+</ScrollView>

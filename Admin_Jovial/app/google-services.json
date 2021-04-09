@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "781809453985",
+    "firebase_url": "https://adminjovial.firebaseio.com",
+    "project_id": "adminjovial",
+    "storage_bucket": "adminjovial.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:781809453985:android:af49115dd08fdeac",
+        "android_client_info": {
+          "package_name": "com.example.apekshakhandelwal.admin_jovial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "781809453985-f5ekg72r549u8tnqrrh73p44fphje14p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.apekshakhandelwal.admin_jovial",
+            "certificate_hash": "8161e935ae75f404fbd7bcaa04f85bf86d377bda"
+          }
+        },
+        {
+          "client_id": "781809453985-rfgi0r22nb5t2o11faa8q7cj9uea7q17.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSKF9sARJLmTZn_2bk72ro4G6xiCBVsCg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "781809453985-rfgi0r22nb5t2o11faa8q7cj9uea7q17.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

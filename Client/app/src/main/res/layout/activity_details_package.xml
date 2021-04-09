@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/rose3"
+    android:layout_height="match_parent"
+    tools:context="com.example.apekshakhandelwal.client.detailsPackage">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="501dp">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/PackageView"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="here!"
+            android:id="@+id/PackageName"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:layout_marginLeft="150dp"
+            android:textColor="#000"
+            android:layout_below="@+id/PackageView" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:checked="true"
+            android:id="@+id/checkbox"
+            android:text="services"
+            android:textColor="#000"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/PackageName"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/checkbox"
+            android:text="Total charges = Rs."
+            android:textColor="#000"
+            android:layout_margin="10dp"
+            android:id="@+id/charges"
+            android:textSize="30dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/checkbox"
+            android:text="to be set"
+            android:textColor="#000"
+            android:textSize="30dp"
+            android:layout_toRightOf="@+id/charges"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentEnd="true"
+            android:textSize="20dp"
+            android:id="@+id/button"
+            android:text="Make Payment"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

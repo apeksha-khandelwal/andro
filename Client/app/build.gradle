@@ -1,0 +1,50 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion '28.0.3'
+    defaultConfig {
+        applicationId "com.example.apekshakhandelwal.client"
+        minSdkVersion 16
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implement 'com.android.support:appcompat-v7:28.1.0'
+    implement 'com.android.support:design:28.1.0'
+    implement 'com.android.support.constraint:constraint-layout:1.0.2'
+    implement 'com.android.support:support-v4:28.1.0'
+    implement 'com.google.android.gms:play-services-auth:11.0.4'
+    implement 'com.firebaseui:firebase-ui-database:1.0.0'
+    implement 'com.firebaseui:firebase-ui-auth:1.0.0'
+    implement 'com.google.firebase:firebase-auth:11.0.4'
+    implement 'com.firebase:firebase-client-android:2.5.0'
+    implement 'com.google.firebase:firebase-storage:11.0.4'
+    implement 'com.google.firebase:firebase-database:11.0.4'
+    implement 'junit:junit:4.12'
+}
+
+
+
+
+
+apply plugin: 'com.google.gms.google-services'

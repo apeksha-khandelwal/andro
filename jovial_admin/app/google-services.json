@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "88987330765",
+    "firebase_url": "https://test-13a36.firebaseio.com",
+    "project_id": "test-13a36",
+    "storage_bucket": "test-13a36.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:88987330765:android:4a08873e4082f8fa",
+        "android_client_info": {
+          "package_name": "com.example.apekshakhandelwal.jovial_admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "88987330765-qsdn35n61folseoi00utgosdsv4vikpk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUlg_XjF39GYd1S4l2LYXVz4D7vo1682U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical" android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:gravity="center_vertical"
+android:weightSum="1">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Username:"
+    android:textColor="#000"
+    android:textSize="30sp"
+    android:paddingLeft="90dp"
+    android:paddingBottom="10dp"/>
+<EditText
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:hint="0423"
+    android:textSize="30sp"
+    android:id="@+id/username"
+    android:layout_gravity="center_horizontal"
+    />
+
+<TextView
+    android:id="@+id/textView2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.03"
+    android:paddingLeft="90dp"
+    android:text="Passcode:"
+    android:textColor="#000"
+    android:textSize="30sp" />
+
+<EditText
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:hint="0423"
+    android:id="@+id/passcode"
+    android:textSize="30sp"
+    android:layout_gravity="center_horizontal"
+
+    />
+
+<Button
+    android:id="@+id/button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:text="Login"
+    android:layout_marginTop="20dp"
+    android:onClick="select_user"/>
+</LinearLayout>

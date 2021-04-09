@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/home"
+        android:padding="20dp"
+        android:paddingTop="30dp">
+        <ImageView
+            android:layout_width="170dp"
+            android:id="@+id/sports"
+            android:layout_height="170dp"
+            android:onClick="gallery"
+            android:src="@drawable/cherish"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:id="@+id/cherish"
+            android:layout_marginTop="14dp"
+            android:text="Cherish"
+            android:textColor="#000"
+            android:layout_below="@+id/sports"
+            android:layout_alignLeft="@+id/us"
+            android:layout_alignStart="@+id/us"
+            android:layout_marginLeft="27dp"
+            android:layout_marginStart="27dp" />
+        <ImageView
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:id="@+id/bollywood"
+            android:onClick="video"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/video"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/sports" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:id="@+id/watch"
+            android:textColor="#000"
+            android:text="Moments"
+            android:layout_above="@+id/Technology"
+            android:layout_alignRight="@+id/voice"
+            android:layout_alignEnd="@+id/voice" />
+        <ImageView
+            android:layout_width="170dp"
+            android:id="@+id/Technology"
+            android:layout_below="@+id/cherish"
+            android:layout_marginTop="30dp"
+            android:onClick="word"
+            android:layout_height="170dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/book"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:id="@+id/us"
+            android:textColor="#000"
+            android:gravity="center_vertical"
+            android:text="Jab We Met"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/Technology"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="14dp"
+            android:layout_marginStart="14dp" />
+        <ImageView
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:id="@+id/Government"
+            android:src="@drawable/listen"
+            android:onClick="audio"
+            android:layout_alignTop="@+id/Technology"
+            android:layout_alignLeft="@+id/bollywood"
+            android:layout_alignStart="@+id/bollywood" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:id="@+id/voice"
+            android:layout_gravity="center"
+            android:textColor="#000"
+            android:text="Voice_Choice"
+            android:layout_alignBaseline="@+id/us"
+            android:layout_alignBottom="@+id/us"
+            android:layout_alignLeft="@+id/Government"
+            android:layout_alignStart="@+id/Government" />
+    </RelativeLayout>
+

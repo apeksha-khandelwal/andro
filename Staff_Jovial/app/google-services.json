@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "447832963999",
+    "firebase_url": "https://staffjovial.firebaseio.com",
+    "project_id": "staffjovial",
+    "storage_bucket": "staffjovial.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:447832963999:android:e76aad00361ec53f",
+        "android_client_info": {
+          "package_name": "com.example.apekshakhandelwal.staff_jovial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "447832963999-c1lkl8sh4njbk76gjaa5e34sa7g8gquf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.apekshakhandelwal.staff_jovial",
+            "certificate_hash": "8161e935ae75f404fbd7bcaa04f85bf86d377bda"
+          }
+        },
+        {
+          "client_id": "447832963999-iket6a9ajgtigtvr17jo9bsid5p2k373.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgjLDF7FCIhZx0HvwlwgGryyWG1w9YN5Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "447832963999-iket6a9ajgtigtvr17jo9bsid5p2k373.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

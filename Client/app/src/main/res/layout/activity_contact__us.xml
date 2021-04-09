@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <LinearLayout
+        android:layout_width="match_parent"
+            android:orientation="vertical"
+        android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="200dp"
+                android:src="@drawable/contact"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address:"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:id="@+id/add"
+                android:layout_height="wrap_content"
+                android:text="Techno India Njr ,Industrial Area,RICCO industries ,Udaipur(Raj.)"
+                android:textSize="20dp"
+                android:onClick="address"
+                android:textStyle="italic"
+                android:padding="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mail US:"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="apeksha.khandelwal23@gmail.com"
+                android:textSize="18dp"
+                android:id="@+id/id"
+                android:onClick="mail"
+                android:layout_gravity="center"
+                android:textStyle="italic"
+                android:padding="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Call Us:"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7062468555"
+                android:onClick="call"
+                android:id="@+id/phone"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                android:padding="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Website:"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="http://technonjr.org/"
+                android:id="@+id/web"
+                android:layout_gravity="center"
+                android:onClick="link"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                android:padding="10dp"/>
+
+    </LinearLayout>
+</ScrollView>

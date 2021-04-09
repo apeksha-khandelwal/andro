@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:background="@drawable/pebbles1"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="30dp">
+        <ImageView
+            android:layout_width="170dp"
+            android:id="@+id/sports"
+            android:layout_height="170dp"
+            android:onClick="launchS"
+            android:src="@drawable/sports"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:id="@+id/cherish"
+            android:layout_marginTop="14dp"
+            android:text="Sports"
+            android:textColor="#ffff"
+            android:layout_below="@+id/sports"
+            android:layout_alignLeft="@+id/us"
+            android:layout_alignStart="@+id/us"
+            android:layout_marginLeft="27dp"
+            android:layout_marginStart="27dp" />
+        <ImageView
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:id="@+id/bollywood"
+            android:onClick="launchB"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/sports"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/sports"
+            android:layout_toEndOf="@+id/sports" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:id="@+id/watch"
+            android:textColor="#ffff"
+            android:text="Bollywood"
+            android:layout_above="@+id/Technology"
+            android:layout_alignRight="@+id/voice"
+            android:layout_alignEnd="@+id/voice" />
+        <ImageView
+            android:layout_width="170dp"
+            android:id="@+id/Technology"
+            android:layout_below="@+id/cherish"
+            android:layout_marginTop="30dp"
+            android:onClick="launchT"
+            android:layout_height="170dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/sports"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:id="@+id/us"
+            android:textColor="#ffff"
+            android:gravity="center_vertical"
+            android:text="Technology"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/Technology"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="14dp"
+            android:layout_marginStart="14dp" />
+        <ImageView
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:id="@+id/Government"
+            android:src="@drawable/sports"
+            android:onClick="launchG"
+            android:layout_alignTop="@+id/Technology"
+            android:layout_alignLeft="@+id/bollywood"
+            android:layout_alignStart="@+id/bollywood" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:id="@+id/voice"
+            android:layout_gravity="center"
+            android:textColor="#ffff"
+            android:text="Government"
+            android:layout_alignBaseline="@+id/us"
+            android:layout_alignBottom="@+id/us"
+            android:layout_alignLeft="@+id/Government"
+            android:layout_alignStart="@+id/Government" />
+    </RelativeLayout>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/nav_header_rohan"
+        app:menu="@menu/activity_rohan_drawer" />
+
+</android.support.v4.widget.DrawerLayout>

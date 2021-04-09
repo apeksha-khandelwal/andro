@@ -1,0 +1,48 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rose3"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        android:orientation="vertical"
+        android:id="@+id/fragmemt">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Package Name"
+            android:id="@+id/PText"
+            android:textColor="#000"
+            android:textSize="35dp"
+            android:textStyle="italic"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:editable="false"
+            android:inputType="none"
+            android:text="Here Comes the \ndetails of the package\n\n Ex:\nBase Charge=1000rs\ncatering=500/head\nservices: decoration and\n\tstage.\n\nTotal:80,000rs/-" />
+        <Button
+            android:layout_width="wrap_content"
+            android:id="@+id/editButton"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="end"
+            android:onClick="edit"
+            android:text="Edit"/>
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

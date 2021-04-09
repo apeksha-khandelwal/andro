@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="q_1">What was the first phone released that ran the Android OS?</string>
+    <string name="q_2"> What is contained within the Layout xml file?</string>
+    <string name="q_3">Which of the following are not a component of an APK file?</string>
+    <string name="q_4">When did Google purchase Android?</string> 2005
+    <string name="q_5">What was the main reason for replacing the Java VM with the Dalvik VM when the project began?</string>30
+    <string name="q_6">What is the name of the program that converts Java byte code into Dalvik byte code?</string>
+    <string name="q_7">Which piece of code used in Android is not open source?</string>26
+    <string name="q_8">What is contained within the manifest xml file?</string>2
+    <string name="q_9">What was Google\'s main business motivation for supporting Android?</string>33
+    <string name="q_10">Android is based on Linux for the following reason.</string>4
+    <string name="score">Your Score is</string>
+    <string name="recheck">Please make sure you answered all the questions</string>
+</resources>

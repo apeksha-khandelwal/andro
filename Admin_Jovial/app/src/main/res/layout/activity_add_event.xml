@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:background="@drawable/rose3"
+    android:layout_width="match_parent">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:gravity="center_horizontal" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="* Event Name:"
+        android:paddingBottom="20dp"
+        style="@style/heading"/>
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:id="@+id/e_name"
+        style="@style/text"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="* Event Type:"
+        android:paddingTop="20dp"
+        android:layout_marginBottom="30dp"
+        style="@style/heading"/>
+    <EditText
+        android:layout_width="200dp"
+        android:id="@+id/e_type"
+        android:layout_height="40dp"
+        style="@style/text"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp">
+
+        <TextView
+            android:id="@+id/image"
+            style="@style/heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Image:"
+            android:layout_marginRight="49dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/EventView"
+            android:layout_toStartOf="@+id/EventView"
+            android:layout_marginEnd="49dp" />
+
+        <ImageView
+            android:id="@+id/EventView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentRight="true"
+            android:onClick="gallery"
+            android:clickable="true"
+            android:src="@drawable/ic_menu_gallery" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/button"
+        style="@style/text"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="70dp"
+        android:onClick="submit"
+        android:text="Submit" />
+
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start"
+    android:background="@drawable/pebbles1">
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="170dp"
+            android:id="@+id/Moments"
+            android:layout_height="170dp"
+            android:src="@drawable/moments"
+            android:onClick="launchS"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:id="@+id/MomentsText"
+            android:layout_marginTop="14dp"
+            android:text="Sports"
+            android:textColor="#ffff"
+            android:layout_below="@+id/Moments"
+            android:layout_alignLeft="@+id/VideoText"
+            android:layout_alignStart="@+id/VideoText"
+            android:layout_marginLeft="27dp"
+            android:layout_marginStart="27dp" />
+
+
+    </GridView>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="30dp">
+        <ImageView
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:id="@+id/Audio"
+            android:onClick="launchB"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/Moments"
+            android:layout_toEndOf="@+id/Moments" />
+        <!--android:src="@drawable/Moments"-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:id="@+id/AudioText"
+            android:textColor="#ffff"
+            android:text="Audio"
+            android:layout_above="@+id/Video"
+            android:layout_alignRight="@+id/WordText"
+            android:layout_alignEnd="@+id/WordText" />
+        <ImageView
+            android:layout_width="170dp"
+            android:id="@+id/Video"
+            android:layout_below="@+id/MomentsText"
+            android:layout_marginTop="30dp"
+            android:onClick="launchT"
+            android:layout_height="170dp"
+            android:layout_marginRight="10dp"/>
+        <!--android:src="@drawable/Moments"/>-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:id="@+id/VideoText"
+            android:textColor="#ffff"
+            android:gravity="center_vertical"
+            android:text="Video"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/Video"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="14dp"
+            android:layout_marginStart="14dp" />
+        <ImageView
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:id="@+id/Word"
+            android:onClick="launchG"
+            android:layout_alignTop="@+id/Video"
+            android:layout_alignLeft="@+id/Audio"
+            android:layout_alignStart="@+id/Audio"
+            android:src="@drawable/book"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:id="@+id/WordText"
+            android:textColor="#ffff"
+            android:text="Word"
+            android:layout_alignBottom="@+id/Word"/>
+    </RelativeLayout>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/nav_header_rohan"
+        app:menu="@menu/activity_rohan_drawer" />
+
+</android.support.v4.widget.DrawerLayout>

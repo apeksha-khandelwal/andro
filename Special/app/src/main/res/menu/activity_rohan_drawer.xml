@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/beforeLogin">
+        <item
+            android:id="@+id/sports"
+            android:icon="@drawable/sports"
+            android:title="Sports" />
+        <item
+            android:id="@+id/bollywood"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Bollywood" />
+        <item
+            android:id="@+id/Technology"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Technology" />
+        <item
+            android:id="@+id/Government"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Government" />
+    </group>
+
+    <group
+        android:id="@+id/afterLogin"
+        android:visible="false">
+        <item android:title="Cherish"
+            android:icon="@drawable/ic_menu_gallery"
+            android:id="@+id/photos"/>
+        <item android:id="@+id/video"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="WatchOver"/>
+        <item android:id="@+id/audio"
+            android:title="Listen"
+            android:icon="@drawable/listen"/>
+        <item android:id="@+id/text"
+            android:title="Learn"
+            android:icon="@drawable/book"/>
+
+    </group>
+
+    <item android:title="SpeakAbout">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+            <item
+                android:id="@+id/Contact"
+                android:icon="@drawable/side_nav_bar"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

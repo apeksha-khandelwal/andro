@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">News</string>
+    <string name="news_title">THree Year Completioln of PM MOdi!!!</string>
+    <string name="type">Type</string>
+    <string name="news_type">Latest</string>
+    <string name="date">Date</string>
+    <string name="news_date">2017-05-25T11:18:14Z</string>
+    <string name="news_section">social</string>
+    <string name="no_news">No news found.</string>
+    <string name="no_internet_connection">No internet connection.</string>
+    <string name="search_title">Search</string>
+    <string name="search_hint">Sports, Music, Science...</string>
+
+</resources>

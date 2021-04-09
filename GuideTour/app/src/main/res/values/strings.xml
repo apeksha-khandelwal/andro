@@ -1,0 +1,108 @@
+<resources>
+    <string name="app_name">Taiwan City Tour Guide</string>
+
+    <!-- Udaipur-->
+    <string name="udr_place1">Lake Pichola</string>
+    <string name="udr_add1">Udaipur, Rajasthan</string>
+    <string name="udr_depth1">4.32 m (14.2 ft)</string>
+    <string name="image1">https://theholidayindia.files.wordpress.com/2013/12/udaipl.jpg?w=645&amp;h=483</string>
+    <string name="udr_place2">Fateh Sagar Lake</string>
+    <string name="udr_add2">Udaipur, Rajasthan</string>
+    <string name="udr_depth2">13.4 m (44 ft)</string>
+    <string name="image2">http://www.udaipurtimes.com/wp-content/uploads/2013/04/amazing-fs-8.jpg</string>
+    <string name="udr_place3">Saheliyon ki Bsdi</string>
+    <string name="udr_phone3"> 095875 00949</string>
+    <string name="udr_add3"> Lake City, Near Science Museum, Udaipur, Rajasthan</string>
+    <string name="image3">http://farm6.static.flickr.com/5531/11798470143_6fceccf06d.jpg</string>
+    <string name="udr_place4">Jag Mandir</string>
+    <string name="udr_phone4"> 0294 242 4186</string>
+    <string name="udr_add4"> Pichola, Udaipur, Rajasthan</string>
+    <string name="image4">http://frozenappleevents.com/wp-content/uploads/2012/08/029.jpg</string>
+    <string name="udr_place5">City Palace</string>
+    <string name="udr_phone5"> 0294 241 9021</string>
+    <string name="udr_add5">Udaipur, Rajasthan</string>
+    <string name="image5">https://cdn.theculturetrip.com/wp-content/uploads/2016/05/cover-image.jpg</string>
+    <string name="udr_place6">Shilpgram</string>
+    <string name="udr_phone6">0294 243 1304</string>
+    <string name="udr_add6">Udaipur, Rajasthan</string>
+    <string name="image6">https://i.ytimg.com/vi/0wco0OXQJoc/hqdefault.jpg</string>
+
+    <!-- Jaipur -->
+    <string name="jpr_place1">Jal Mahal</string>
+    <string name="jpr_add1">Jal Mahal,Jaipur,Rajasthan</string>
+    <string name="jpr_phone1"> 0141 263 0714</string>
+    <string name="image13">http://amazingindiablog.in/wp-content/uploads/2016/09/Jal-Mahal-Evening-View.jpg</string>
+    <string name="jpr_place2">Birla MAndir</string>
+    <string name="jpr_add2">Tilak Nagar, Jaipur, Rajasthan</string>
+    <string name="jpr_phone2"> 094412 35678</string>
+    <string name="image14">http://www.smarttech2017.com/images/birla.jpg</string>
+    <string name="jpr_place3">Amer Fort</string>
+    <string name="jpr_phone3"> 095875 00949</string>
+    <string name="jpr_add3">Devisinghpura, Amer, Jaipur, Rajasthan</string>
+    <string name="image15">http://static.thousandwonders.net/Amer.Fort.original.10208.jpg</string>
+    <string name="jpr_place4">Hawa Mahel</string>
+    <string name="jpr_phone4">-</string>
+    <string name="jpr_add4"> Hawa Mahal Rd, Badi Choupad, J.D.A. Market, Pink City, Jaipur, Rajasthan</string>
+    <string name="image16">https://media-cdn.tripadvisor.com/media/photo-s/08/10/ed/b8/hawa-mahal-palace-of.jpg</string>
+    <string name="jpr_place5">Jantar Mantar</string>
+    <string name="jpr_phone5">-</string>
+    <string name="jpr_add5"> Gangori Bazaar, J.D.A. Market, Kanwar Nagar, Jaipur, Rajasthan </string>
+    <string name="image17">http://images.mapsofindia.com/my-india/jantar-mantar-delhi.jpg</string>
+    <string name="jpr_place6">Nahargarh Fort</string>
+    <string name="jpr_phone6">-</string>
+    <string name="jpr_add6">Krishna Nagar, Brahampuri, Jaipur, Rajasthan</string>
+    <string name="image18">http://www.siamtur.com/s1/resimler/169/1483350058_amber-fort-541.jpg</string>
+
+    <!-- Jaisalmer -->
+    <string name="jslm_place1">Jaisalmer Fort</string>
+    <string name="jslm_add1"> Fort Rd, Khejer Para, Manak Chowk, Amar Sagar Pol, Jaisalmer, Rajasthan </string>
+    <string name="jslm_abt1">Hill Forts of Rajasthan</string>
+    <string name="image7">http://www.travelnthrill.com/wp-content/uploads/2016/08/Sunrise-from-the-Jaisalmer-fort.jpg</string>
+    <string name="jslm_place2">Folklore Museum</string>
+    <string name="jslm_add2">Postal Colony, Jaisalmer, Rajasthan</string>
+    <string name="jslm_abt2">Collection of object about culture</string>
+    <string name="image8">https://media-cdn.tripadvisor.com/media/photo-s/05/7f/b2/f0/folklore-museum.jpg</string>
+    <string name="jslm_place3">Desert Cultural Centre</string>
+    <string name="jslm_abt3"> Art and culture show</string>
+    <string name="jslm_add3">Gadisar Rd, Amar Sagar Pol, Jaisalmer, Rajasthan</string>
+    <string name="image9">https://www.tourmyindia.com/images/desert-culture-center1.jpg</string>
+    <string name="jslm_place4">Patwon Ki Haveliyan</string>
+    <string name="jslm_phone4">095066 77081</string>
+    <string name="jslm_add4">Patwon ki Haveliyan, Jaisalmer, Rajasthan </string>
+    <string name="image10">http://rajasthanvisit.com/images/Jaisalmer-Haveli6.jpg</string>
+    <string name="jslm_place5">Mandir Palace</string>
+    <string name="jslm_phone5">02992 252 788</string>
+    <string name="jslm_add5">Gandhi Chowk Rd, Sadar Bazar, Jaisalmer, Rajasthan</string>
+    <string name="image11">https://s-media-cache-ak0.pinimg.com/564x/60/db/e8/60dbe851b6bb3336b276fd4f4202ddc1.jpg</string>
+    <string name="jslm_place6">Sam Sand Dunes Desert Safari</string>
+    <string name="jslm_phone6"> 097848 44524</string>
+    <string name="jslm_add6">Sam Sand Dunes, Right Side On Sam Road, Jaisalmer, Rajasthan</string>
+    <string name="image12">http://www.indovacations.net/visitRajasthan/images/samsand.jpg</string>
+
+    <!-- Jodhpur -->
+    <string name="jdr_place1">Mehrangarh Fort</string>
+    <string name="jdr_add1"> P.B No 165 , The Fort, Jodhpur, Rajasthan</string>
+    <string name="jdr_phone1"> 0291 254 8790</string>
+    <string name="image19">http://image3.mouthshut.com/images/Restaurant/Photo/-28117_6885.jpg</string>
+    <string name="jdr_place2">Umaid Bhawan Palace</string>
+    <string name="jdr_add2"> Circuit House Rd, Cantt Area, Jodhpur, Rajasthan</string>
+    <string name="jdr_phone2"> 0291 251 0101</string>
+    <string name="image20">https://w-dog.net/wallpapers/2/13/296154820194182/night-palace-dinner-candles-india-palace.jpg</string>
+    <string name="jdr_place3">Ranisar Lake</string>
+    <string name="jdr_phone3">-</string>
+    <string name="jdr_add3">Fate Pole Road, Near Meharana Garh Fort,Chand Bawari, Sodagaran Mohalla, Jodhpur, Rajasthan</string>
+    <string name="image21">http://www.incrediblejodhpur.com/images/jdh_places/main/pic08292014122010_pic07042014012239_img4-4.jpg</string>
+    <string name="jdr_place4">Jaswant Thada</string>
+    <string name="jdr_phone4"> 0291 254 8790</string>
+    <string name="jdr_add4">Lawaran, Jodhpur, Rajasthan</string>
+    <string name="image22">https://s-media-cache-ak0.pinimg.com/originals/c6/6e/c1/c66ec14b3f00d90963f50312faaf8098.jpg</string>
+    <string name="jdr_place5">Mandore Garden</string>
+    <string name="jdr_phone5">-</string>
+    <string name="jdr_add5"> Mandore, Jodhpur, Rajasthan</string>
+    <string name="image23">http://image3.mouthshut.com/images/Restaurant/Photo/-55341_10898.jpg</string>
+    <string name="jdr_place6">Machia Biological Park</string>
+    <string name="jdr_phone6"> 078780 07973</string>
+    <string name="jdr_add6">Kailana Rd, Near Kaylana LAke, Kamla Nehru Nagar, Jodhpur, Rajasthan</string>
+    <string name="image24">http://www.trawell.in/admin/images/upload/034229404Jodhpur_Machiya_Safari_Park_Main.jpg</string>
+</resources>
+

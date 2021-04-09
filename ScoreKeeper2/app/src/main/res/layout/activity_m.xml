@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:fillViewport="true">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/Title"
+                android:text="@string/A" />
+
+            <TextView
+                android:id="@+id/team_a_score"
+                style="@style/Score"
+                android:text="@string/score" />
+
+            <Button
+                style="@style/Button"
+                android:onClick="Aplus6"
+                android:text="@string/plus6" />
+
+            <Button
+                style="@style/Button"
+                android:onClick="Aplus3"
+                android:text="@string/plus3" />
+
+            <Button
+                style="@style/Button"
+                android:onClick="Aplus2"
+                android:text="@string/plus2" />
+
+            <Button
+                style="@style/Button"
+                android:onClick="Aplus1"
+                android:text="@string/plus1" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/darker_gray" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/Title"
+                android:text="@string/B" />
+
+            <TextView
+                android:id="@+id/team_b_score"
+                style="@style/Score"
+                android:text="@string/score" />
+
+            <Button
+                style="@style/Button"
+                android:onClick="Bplus6"
+                android:text="@string/plus6" />
+
+            <Button
+                style="@style/Button"
+                android:onClick="Bplus3"
+                android:text="@string/plus3" />
+
+            <Button
+                style="@style/Button"
+                android:onClick="Bplus2"
+                android:text="@string/plus2" />
+
+            <Button
+                style="@style/Button"
+                android:onClick="Bplus1"
+                android:text="@string/plus1" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:onClick="resetScore"
+            android:text="@string/reset" />
+    </RelativeLayout>
+
+</LinearLayout>
+
+</ScrollView>

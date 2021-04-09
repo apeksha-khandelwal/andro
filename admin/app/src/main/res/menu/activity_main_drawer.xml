@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/review"
+            android:icon="@drawable/review"
+            android:title="Review Approval" />
+        <item
+            android:id="@+id/contact"
+            android:icon="@drawable/contact"
+            android:title="Contact Info." />
+
+    </group>
+
+    <item android:title="Available">
+        <menu>
+            <item
+                android:id="@+id/events"
+                android:icon="@drawable/garden_party"
+                android:title="Events" />
+            <item
+                android:id="@+id/packages"
+                android:icon="@drawable/pack"
+                android:title="Packages" />
+            <item
+                android:id="@+id/services"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Services" />
+            <item
+                android:id="@+id/staff"
+                android:icon="@drawable/staff"
+                android:title="Staff" />
+        </menu>
+    </item>
+
+</menu>
